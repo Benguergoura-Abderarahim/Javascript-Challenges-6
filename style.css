@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./style.img/containerBg.jpg);
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: auto;
+  padding: 2%;
+  margin: 1%;
+  justify-content: space-evenly;
+}
+
+select#city-list {
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 10px 5px #6b6b6b;
+  background-color: #fabe6f;
+  font-size: 16px;
+  font-weight: 600;
+  color: #865454;
+}
+
+/* option {
+} */
+
+button#get-weather-btn {
+  padding: 2%;
+  margin: 1%;
+  width: auto;
+  background-color: #992f2f;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  box-shadow: 10px 5px #6b6b6b;
+  color: #c7c2c2;
+}
+
+div#current-weather {
+  border: 1px solid #2d2d2d;
+  border-radius: 15px;
+  padding: 2%;
+  margin: 1%;
+  text-align: center;
+  line-height: 4vh;
+  box-shadow: 10px 5px #6b6b6b;
+  background-image: url(./style.img/weatherCards.jpg);
+  object-fit: cover;
+  color: #e7e7e7;
+}
+
+div#forecast {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+  margin: 1%;
+}
+
+div.forecast-item {
+  border: 1px solid #2d2d2d;
+  border-radius: 15px;
+  padding: 2%;
+  margin: 1%;
+  text-align: center;
+  line-height: 4vh;
+  box-shadow: 10px 5px #6b6b6b;
+  background-image: url(./style.img/weatherCards.jpg);
+  object-fit: cover;
+  color: #e7e7e7;
+}
+
+h2.title {
+  text-align: center;
+  margin: 1%;
+  padding: 2%;
+  color: #0f2666;
+}
+
+span {
+  font-weight: 900;
+  font-size: 20px;
+}

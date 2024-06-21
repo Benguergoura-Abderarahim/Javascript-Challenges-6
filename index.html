@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+    />
+    <title>City Weather Forecast</title>
+    <script src="./weather.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <select id="city-list">
+        <option>Select a city...</option>
+        <!-- City options will be dynamically added here -->
+      </select>
+      <!-- Button to trigger the weather fetch for the selected city -->
+      <button id="get-weather-btn">Get Weather</button>
+
+      <!-- Container to display the current weather -->
+      <div>
+        <h2 class="title">Current Weather</h2>
+        <div id="current-weather"></div>
+      </div>
+
+      <!-- Container to display the 7-day weather forecast -->
+      <div>
+        <h2 class="title">7-Day Forecast</h2>
+        <div id="forecast"></div>
+      </div>
+    </div>
+  </body>
+</html>
